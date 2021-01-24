@@ -1,0 +1,20 @@
+:root {
+  --primary-color:#d8b26e;
+  --secundary-color:#b4c1c5;
+  --alternative-color:#c78a44;
+  --alternative-color2: #5f7782;
+  --background-color: #dad5d2;
+  --text-color:#08090a;
+  --base-0:#f9fafa;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  background-color: var(--background-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+

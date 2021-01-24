@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./components/style.css">
   <title>Components</title>
 </head>
 <body>
@@ -20,8 +23,8 @@
       <h4>Cards</h4>
       <div class="card">
         <div class="card__author">
-          <img src="./icons/avatar.png" alt="author photo" />
-          <div class="card__author--data">
+          <img class="card__profile" src="./icons/avatar.png" alt="author photo" />
+          <div class="card__author-data">
             <h5>User Name</h5>
             <p>Jan 22</p>
           </div>
@@ -29,14 +32,14 @@
         
         <div class="card__container">
           <h3 class="card__title">Blogging for me</h3>
-          <div>
+          <div class="tags">
             <span class="tech">Ruby on rails</span>
             <span class="tech">JavaScript</span>
           </div>
-          <div>
-            <img src="" alt="">
+          <div class="card__icons">
+            <img src="./icons/heart.png" alt="">
             <span>9 reactions</span>
-            <img src="" alt="">
+            <img src="./icons/speech-bubble.png" alt="">
             <span>1 comments</span>
           </div>
         </div>
