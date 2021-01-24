@@ -14,5 +14,5 @@ Anyone can access to the page only with github account.</p>
 
 ## Authors
 
-<h4>Andromeda</h4>
+<h4>Andrea Miranda</h4>
 <h4>Marco Macollunco</h4>
